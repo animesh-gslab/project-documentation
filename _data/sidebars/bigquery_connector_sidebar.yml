@@ -40,6 +40,10 @@ entries:
       output: web
     
     - title: Version 2.1.0
+      url: /bq_v2_1_user_guide.html
+      output: web
+      
+    - title: Version 2.2.0
       url: /bq_user_guide.html
       output: web
         
@@ -55,5 +59,9 @@ entries:
       output: web
       
     - title: Version 2.1.0
-      url: /bq_api_reference.html
+      url: /bq_v2_1_api_reference.html
       output: web
+      
+    - title: Version 2.2.0
+      url: /bq_api_reference.html
+      output: web      

@@ -97,7 +97,7 @@ this XML snippet in pom.xml file in the Mule project.
            <dependency>
                 <groupId>com.mulesoft.connectors</groupId>
                 <artifactId>mule-bigquery-connector</artifactId>
-                <version>2.2.0</version>
+                <version>2.1.0</version>
                 <classifier>mule-plugin</classifier>
             </dependency>
 
@@ -158,7 +158,7 @@ There are 2 ways to configure the connector and following parameters are require
 <tr><td>Service Account Key (JSON) File Name</td><td>Associated with Google Cloud Platform’s Project. Download the file, place it in <b>BASE_LOCATION_OF_PROJECT/src/main/resources</b> folder and provide it's relative path.</td></tr>
 </table>
 
-![Bigquery-global-config](./images/mulesoft/bigquery-connector/ProjectConfigKeyFile-v2.2.JPG)
+![Bigquery-global-config](./images/mulesoft/bigquery-connector/ProjectConfigKeyFile-v2.1.JPG)
 
 **Service Account File Content**
 
@@ -169,34 +169,7 @@ There are 2 ways to configure the connector and following parameters are require
 <tr><td>Service Account Key (JSON) File Content (base64 encoded)</td><td>Associated with Google Cloud Platform’s Project. Download the file, provide it's content in base64 format in this field.</td></tr>
 </table>
 
-![Bigquery-global-config](./images/mulesoft/bigquery-connector/ProjectConfigKeyFileContent-v2.2.JPG)
-
-### Configuring Proxy with the BigQuery Global Element
-
-Proxy can be configured in BigQuery Global Element using 
-"Proxy" tab as follows:
-
-![Bigquery-global-config](./images/mulesoft/bigquery-connector/ProjectConfigProxyDefault-v2.2.JPG) 
-
-Proxy configuration is optional and user can configure it based on needs.
-
-To configure proxy, proxy host and port are required 
-parameter. Username, Password and Non proxy hosts are optional parameters.
-
-**Proxy Configuration**
-
-<table border="1">
-
-<tr><th>Field</th><th>Description</th></tr>
-<tr><td>Host</td><td>Host name where the proxy requests will be sent.</td></tr>
-<tr><td>Port</td><td>Port number on which proxy is running.</td></tr>
-<tr><td>Username</td><td>The username to authenticate against the proxy.</td></tr>
-<tr><td>Password</td><td>The password to authenticate against the proxy.</td></tr>
-<tr><td>Non Proxy Hosts</td><td>A list of | (pipeline) operator separated hosts against which the proxy should not be used.</td></tr>
-</table>
-
-![Bigquery-global-config](./images/mulesoft/bigquery-connector/ProjectConfigProxyEditInline-v2.2.JPG) 
-
+![Bigquery-global-config](./images/mulesoft/bigquery-connector/ProjectConfigKeyFileContent-v2.1.JPG)
 
 ### Understanding the Google BigQuery Connector {#operations}
 
@@ -1653,6 +1626,6 @@ Resources
 
 -   [BiqQuery Connector Release Notes](bq_release_notes.html).
 
--   [BiqQuery Connector API docs - Version 2.2.0](bq_api_reference.html).
+-   [BiqQuery Connector API docs - Version 2.1.0](bq_v2_1_api_reference.html).
 
 {% include links.html %}

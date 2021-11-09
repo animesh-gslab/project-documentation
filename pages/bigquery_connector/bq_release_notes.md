@@ -23,6 +23,20 @@ applications.
 
 
 
+### Google BigQuery Connector v2.2.0 - <TBD>
+
+#### Version V2.2.0 Compatibility
+<table border="1">
+<tr><th>Software</th><th>Version</th></tr>
+<tr><td>Mule Runtime</td><td>4.2.1</td></tr>
+</table>
+
+#### Features
+
+1. Connector configuration allows proxy configuration.
+
+
+
 ### Google BigQuery Connector v2.1.0 - April 30, 2021
 
 #### Version V2.1.0 Compatibility

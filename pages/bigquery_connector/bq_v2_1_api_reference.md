@@ -112,15 +112,6 @@ This class provides connection with Project ID and JSON service account key file
 <td class="tableblock halign-center valign-middle"><p class="tableblock"><strong>x</strong>&#160;</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Proxy Configuration</p></td>
-<td class="tableblock halign-left valign-middle"><div><div class="paragraph">
-<p><a href="#ProxyConfiguration">Proxy Configuration</a></p>
-</div></div></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Reusable configuration element for outbound connections through a proxy</p></td>
-<td class="tableblock halign-left valign-middle"></td>
-<td class="tableblock halign-center valign-middle"><p class="tableblock">&nbsp;</p></td>
-</tr>
-<tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Service Account Key (JSON) File Name</p></td>
 <td class="tableblock halign-left valign-middle"><div><div class="paragraph">
 <p>String</p>
@@ -186,15 +177,6 @@ This class provides connection with Project ID and JSON service account key file
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Project Identity</p></td>
 <td class="tableblock halign-left valign-middle"></td>
 <td class="tableblock halign-center valign-middle"><p class="tableblock"><strong>x</strong>&#160;</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Proxy Configuration</p></td>
-<td class="tableblock halign-left valign-middle"><div><div class="paragraph">
-<p><a href="#ProxyConfiguration">Proxy Configuration</a></p>
-</div></div></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Reusable configuration element for outbound connections through a proxy</p></td>
-<td class="tableblock halign-left valign-middle"></td>
-<td class="tableblock halign-center valign-middle"><p class="tableblock">&nbsp;</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Service Account Key (JSON) File Content (base64 encoded)</p></td>
@@ -3379,75 +3361,6 @@ UpdateTable operation updates information in an existing table.
 </ul>
 </div></div></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">A time unit that qualifies the maxIdleTime attribute</p></td>
-<td class="tableblock halign-left valign-middle"></td>
-<td class="tableblock halign-left valign-middle"></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect2">
-<h3 id="ProxyConfiguration">Proxy Configuration</h3>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 25%;">
-<col style="width: 30%;">
-<col style="width: 15%;">
-<col style="width: 10%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-middle">Field</th>
-<th class="tableblock halign-left valign-middle">Type</th>
-<th class="tableblock halign-left valign-middle">Description</th>
-<th class="tableblock halign-left valign-middle">Default Value</th>
-<th class="tableblock halign-left valign-middle">Required</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Host</p></td>
-<td class="tableblock halign-left valign-middle"><div><div class="paragraph">
-<p>String</p>
-</div></div></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Host name where the proxy requests will be sent.</p></td>
-<td class="tableblock halign-left valign-middle"></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">x</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Port</p></td>
-<td class="tableblock halign-left valign-middle"><div><div class="paragraph">
-<p>Number</p>
-</div></div></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Port number where the proxy requests will be sent.</p></td>
-<td class="tableblock halign-left valign-middle"></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">x</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Username</p></td>
-<td class="tableblock halign-left valign-middle"><div><div class="paragraph">
-<p>String</p>
-</div></div></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">The username to authenticate against the proxy.</p></td>
-<td class="tableblock halign-left valign-middle"></td>
-<td class="tableblock halign-left valign-middle"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Password</p></td>
-<td class="tableblock halign-left valign-middle"><div><div class="paragraph">
-<p>String</p>
-</div></div></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">The password to authenticate against the proxy.</p></td>
-<td class="tableblock halign-left valign-middle"></td>
-<td class="tableblock halign-left valign-middle"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Non Proxy Hosts</p></td>
-<td class="tableblock halign-left valign-middle"><div><div class="paragraph">
-<p>String</p>
-</div></div></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">A list of | (pipeline) operator separated hosts against which the proxy
- should not be used</p></td>
 <td class="tableblock halign-left valign-middle"></td>
 <td class="tableblock halign-left valign-middle"></td>
 </tr>
