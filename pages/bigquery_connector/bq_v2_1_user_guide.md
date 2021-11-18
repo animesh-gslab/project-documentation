@@ -2,7 +2,7 @@
 title: Google BigQuery Connector User Guide
 toc: true
 sidebar: bigquery_connector_sidebar
-permalink: bq_user_guide.html
+permalink: bq_v2_1_user_guide.html
 folder: bigquery_connector
 ---
 Google BigQuery Connector
@@ -218,7 +218,7 @@ Mule.
     makes sure that DataWeave knows the data format and structure it
     must work with so you don’t have to figure it out manually. Mule
     developer can refer to [BiqQuery Connector API
-    docs](bq_api_reference.html) and [Google BigQuery
+    docs](bq_v2_1_api_reference.html) and [Google BigQuery
     JavaDocs](https://googleapis.dev/java/google-cloud-clients/latest/com/google/cloud/bigquery/package-summary.html)
     for more information about complex input or return types.
 
