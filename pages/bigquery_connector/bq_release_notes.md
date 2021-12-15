@@ -31,6 +31,10 @@ applications.
 <tr><td>Mule Runtime</td><td>4.2.1</td></tr>
 </table>
 
+#### Fixed Issues
+
+1. Issue with DataSense is fixed.
+
 #### Features
 
 1. Connector configuration allows proxy configuration.
