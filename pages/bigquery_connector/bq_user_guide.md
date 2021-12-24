@@ -158,7 +158,7 @@ There are 2 ways to configure the connector and following parameters are require
 <tr><td>Service Account Key (JSON) File Name</td><td>Associated with Google Cloud Platform’s Project. Download the file, place it in <b>BASE_LOCATION_OF_PROJECT/src/main/resources</b> folder and provide it's relative path.</td></tr>
 </table>
 
-![Bigquery-global-config](./images/mulesoft/bigquery-connector/ProjectConfigKeyFile-v2.2.JPG)
+![Bigquery-global-config](./images/mulesoft/bigquery-connector/ProjectConfigKeyFile-v2.2.jpg)
 
 **Service Account File Content**
 
@@ -169,14 +169,14 @@ There are 2 ways to configure the connector and following parameters are require
 <tr><td>Service Account Key (JSON) File Content (base64 encoded)</td><td>Associated with Google Cloud Platform’s Project. Download the file, provide it's content in base64 format in this field.</td></tr>
 </table>
 
-![Bigquery-global-config](./images/mulesoft/bigquery-connector/ProjectConfigKeyFileContent-v2.2.JPG)
+![Bigquery-global-config](./images/mulesoft/bigquery-connector/ProjectConfigKeyFileContent-v2.2.jpg)
 
 ### Configuring Proxy with the BigQuery Global Element
 
 Proxy can be configured in BigQuery Global Element using 
 "Proxy" tab as follows:
 
-![Bigquery-global-config](./images/mulesoft/bigquery-connector/ProjectConfigProxyDefault-v2.2.JPG) 
+![Bigquery-global-config](./images/mulesoft/bigquery-connector/ProjectConfigProxyDefault-v2.2.jpg) 
 
 Proxy configuration is optional and user can configure it based on needs.
 
@@ -195,7 +195,7 @@ parameter. Username, Password and Non proxy hosts are optional parameters.
 <tr><td>Non Proxy Hosts</td><td>A list of | (pipeline) operator separated hosts against which the proxy should not be used.</td></tr>
 </table>
 
-![Bigquery-global-config](./images/mulesoft/bigquery-connector/ProjectConfigProxyEditInline-v2.2.JPG) 
+![Bigquery-global-config](./images/mulesoft/bigquery-connector/ProjectConfigProxyEditInline-v2.2.jpg) 
 
 
 ### Understanding the Google BigQuery Connector {#operations}
